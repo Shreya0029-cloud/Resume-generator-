@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login / Signup | Resume AI</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="box">
+  <div class="login" id="loginSection">
+    <form class="loginBx" id="login">
+      <h2><i class="fa-solid fa-right-to-bracket"></i> Login <i class="fa-solid fa-heart"></i></h2>
+      <input type="email" id="loginEmail" placeholder="Email" required />
+      <input type="password" id="loginPassword" placeholder="Password" required />
+      <input type="submit" value="Sign In" />
+      <div class="group">
+        <a href="#">Forgot Password</a>
+        <a href="#" class="toggle-signup">Sign up</a>
+      </div>
+    </form>
+  </div>
+
+  <div class="login" id="signupSection" style="display:none;">
+    <form class="loginBx" id="signup">
+      <h2><i class="fa-solid fa-user-plus"></i> Sign Up <i class="fa-solid fa-star"></i></h2>
+      <input type="email" id="signupEmail" placeholder="Email" required />
+      <input type="password" id="signupPassword" placeholder="Password" required />
+      <input type="submit" value="Register" />
+      <div class="group">
+        <a href="#" class="toggle-login">Back to Login</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
